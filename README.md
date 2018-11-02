@@ -1,7 +1,7 @@
 # KiCad Sheet Rearranger
 Simple tool for defining a certain oder of multiple sub-sheets in a schematic project
 
-![](screenshot-20150307.png)
+![](screenshot.png)
 
 ## Usage
 * Load root schematic file of your KiCad project

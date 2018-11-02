@@ -28,6 +28,8 @@ MainWindow::MainWindow(QWidget *parent, QString fileName) :
     if(ui->actionDisable_Hirarchy_Warning->isChecked() == false){
         on_actionDisable_Hirarchy_Warning_triggered(false);
     }
+    
+    setWindowTitle("KiCad Sheet Rearranger");
 }
 
 
