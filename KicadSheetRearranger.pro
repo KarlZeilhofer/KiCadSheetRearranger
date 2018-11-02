@@ -8,8 +8,13 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = SheetRearranger2
 TEMPLATE = app
+DESTDIR = bin
+OBJECTS_DIR = obj
+MOC_DIR = obj
+RCC_DIR = obj
+UI_DIR = obj
+TARGET = kicad-sheet-rearranger
 
 
 SOURCES += main.cpp\
